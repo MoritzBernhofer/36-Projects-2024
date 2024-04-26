@@ -10,14 +10,20 @@ function Ant(x, y) {
         rect(this.x * cellSize, this.y * cellSize, cellSize, cellSize);
     }
 
-    this.update = (grid, cols) => {
-        const index = this.y + this.x * cols;
+    this.update = (grid, rows) => {
+        const index = this.x + this.y * rows;
+
+        if(index > grid.length){
+            frameRate(0);
+            return;
+        }
+
         const color = grid[index].color;
 
         if (color === 255) {
-            grid[index].color = 0;
+            grid[index].color = this.direction;
             this.direction -= 90;
-        } else if (color === 0) {
+        } else {
             grid[index].color = 255;
             this.direction += 90;
         }

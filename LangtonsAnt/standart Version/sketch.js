@@ -4,18 +4,18 @@ let grid = [],
     ant;
 
 function createGrid() {
-    for (let i = 0; i < rows; i++) {
-        for (let j = 0; j < cols; j++) {
-            grid.push(new Cell(i, j));
+    for (let y = 0; y < cols; y++) {
+        for (let x = 0; x < rows; x++) {
+            grid.push(new Cell(x, y));
         }
     }
 }
 
 function showGrid() {
-    grid.forEach(cell => cell.show(cellSize));
+    grid.forEach(cell => cell.show(cellSize, ant.direction));
 }
 
-function show() {
+function displayGridAndAnt() {
     showGrid();
     ant.show(cellSize);
 }
@@ -31,16 +31,16 @@ function setup() {
     canvas.parent("container")
 
     createGrid();
-   // frameRate(0.5);
+    //frameRate(0.5);
 }
 
 function draw() {
     //background(20, 52, 130);
     background(255);
 
-    for (let i = 0; i < 10; i++) {
-        ant.update(grid, cols);
-
+    for (let i = 0; i < 50; i++) {
+        ant.update(grid, rows);
     }
-    show();
+
+    displayGridAndAnt();
 }
