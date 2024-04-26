@@ -9,7 +9,8 @@ from 23 April till the end of the year 2024 i will be programming 36 Projects on
 **References:** [Link to References](#)
 
 ## Project 2
-**Name:** Julia set  
+
+**Name:**   AI library and flappy bird ai
 **GitHub Repo:** [Link to GitHub Repo](#)  
 **References:** [Link to References](#)
 
@@ -69,7 +70,7 @@ from 23 April till the end of the year 2024 i will be programming 36 Projects on
 **References:** [Link to References](#)  
 
 ## Project 14
-**Name:**  AI library and flappy bird ai
+**Name:**  Julia set
 **GitHub Repo:** [Link to GitHub Repo](#)  
 **References:** [Link to References](#)  
 
