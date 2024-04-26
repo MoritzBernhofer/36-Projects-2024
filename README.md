@@ -5,8 +5,8 @@ from 23 April till the end of the year 2024 i will be programming 36 Projects on
 
 ## Project 1
 **Name:** Langton's Ant  
-**GitHub Repo:** [Link to GitHub Repo](#)  
-**References:** [Link to References](#)
+**GitHub Repo:** [Link to GitHub Repo](#https://github.com/MoritzBernhofer/36-Projects-2024/tree/main/Projects/Project%201/LangtonsAnt)  
+**References:** [Link to References](#https://en.wikipedia.org/wiki/Langton%27s_ant)
 
 ## Project 2
 
